@@ -1,0 +1,412 @@
+{
+  "database": "employees",
+  "extracted_at": "2024-10-23T14:45:48.688215",
+  "tables": {
+    "departments": {
+      "columns": [
+        {
+          "name": "dept_no",
+          "type": "char(4)",
+          "nullable": false,
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "dept_name",
+          "type": "varchar(40)",
+          "nullable": false,
+          "default": null,
+          "extra": ""
+        }
+      ],
+      "primary_key": {
+        "constrained_columns": [
+          "dept_no"
+        ],
+        "name": null
+      },
+      "foreign_keys": [],
+      "indexes": [
+        {
+          "name": "dept_name",
+          "column_names": [
+            "dept_name"
+          ],
+          "unique": true,
+          "type": "UNIQUE"
+        }
+      ],
+      "table_properties": {
+        "engine": "InnoDB",
+        "collation": "utf8mb4_0900_ai_ci",
+        "auto_increment": null,
+        "create_options": "",
+        "comment": ""
+      },
+      "create_statement": "CREATE TABLE `departments` (\n  `dept_no` char(4) NOT NULL,\n  `dept_name` varchar(40) NOT NULL,\n  PRIMARY KEY (`dept_no`),\n  UNIQUE KEY `dept_name` (`dept_name`)\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci"
+    },
+    "dept_emp": {
+      "columns": [
+        {
+          "name": "emp_no",
+          "type": "int",
+          "nullable": false,
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "dept_no",
+          "type": "char(4)",
+          "nullable": false,
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "from_date",
+          "type": "date",
+          "nullable": false,
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "to_date",
+          "type": "date",
+          "nullable": false,
+          "default": null,
+          "extra": ""
+        }
+      ],
+      "primary_key": {
+        "constrained_columns": [
+          "emp_no",
+          "dept_no"
+        ],
+        "name": null
+      },
+      "foreign_keys": [
+        {
+          "name": "dept_emp_ibfk_1",
+          "constrained_columns": [
+            "emp_no"
+          ],
+          "referred_schema": null,
+          "referred_table": "employees",
+          "referred_columns": [
+            "emp_no"
+          ],
+          "options": {
+            "ondelete": "CASCADE"
+          }
+        },
+        {
+          "name": "dept_emp_ibfk_2",
+          "constrained_columns": [
+            "dept_no"
+          ],
+          "referred_schema": null,
+          "referred_table": "departments",
+          "referred_columns": [
+            "dept_no"
+          ],
+          "options": {
+            "ondelete": "CASCADE"
+          }
+        }
+      ],
+      "indexes": [
+        {
+          "name": "dept_no",
+          "column_names": [
+            "dept_no"
+          ],
+          "unique": false
+        }
+      ],
+      "table_properties": {
+        "engine": "InnoDB",
+        "collation": "utf8mb4_0900_ai_ci",
+        "auto_increment": null,
+        "create_options": "",
+        "comment": ""
+      },
+      "create_statement": "CREATE TABLE `dept_emp` (\n  `emp_no` int NOT NULL,\n  `dept_no` char(4) NOT NULL,\n  `from_date` date NOT NULL,\n  `to_date` date NOT NULL,\n  PRIMARY KEY (`emp_no`,`dept_no`),\n  KEY `dept_no` (`dept_no`),\n  CONSTRAINT `dept_emp_ibfk_1` FOREIGN KEY (`emp_no`) REFERENCES `employees` (`emp_no`) ON DELETE CASCADE,\n  CONSTRAINT `dept_emp_ibfk_2` FOREIGN KEY (`dept_no`) REFERENCES `departments` (`dept_no`) ON DELETE CASCADE\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci"
+    },
+    "dept_manager": {
+      "columns": [
+        {
+          "name": "emp_no",
+          "type": "int",
+          "nullable": false,
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "dept_no",
+          "type": "char(4)",
+          "nullable": false,
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "from_date",
+          "type": "date",
+          "nullable": false,
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "to_date",
+          "type": "date",
+          "nullable": false,
+          "default": null,
+          "extra": ""
+        }
+      ],
+      "primary_key": {
+        "constrained_columns": [
+          "emp_no",
+          "dept_no"
+        ],
+        "name": null
+      },
+      "foreign_keys": [
+        {
+          "name": "dept_manager_ibfk_1",
+          "constrained_columns": [
+            "emp_no"
+          ],
+          "referred_schema": null,
+          "referred_table": "employees",
+          "referred_columns": [
+            "emp_no"
+          ],
+          "options": {
+            "ondelete": "CASCADE"
+          }
+        },
+        {
+          "name": "dept_manager_ibfk_2",
+          "constrained_columns": [
+            "dept_no"
+          ],
+          "referred_schema": null,
+          "referred_table": "departments",
+          "referred_columns": [
+            "dept_no"
+          ],
+          "options": {
+            "ondelete": "CASCADE"
+          }
+        }
+      ],
+      "indexes": [
+        {
+          "name": "dept_no",
+          "column_names": [
+            "dept_no"
+          ],
+          "unique": false
+        }
+      ],
+      "table_properties": {
+        "engine": "InnoDB",
+        "collation": "utf8mb4_0900_ai_ci",
+        "auto_increment": null,
+        "create_options": "",
+        "comment": ""
+      },
+      "create_statement": "CREATE TABLE `dept_manager` (\n  `emp_no` int NOT NULL,\n  `dept_no` char(4) NOT NULL,\n  `from_date` date NOT NULL,\n  `to_date` date NOT NULL,\n  PRIMARY KEY (`emp_no`,`dept_no`),\n  KEY `dept_no` (`dept_no`),\n  CONSTRAINT `dept_manager_ibfk_1` FOREIGN KEY (`emp_no`) REFERENCES `employees` (`emp_no`) ON DELETE CASCADE,\n  CONSTRAINT `dept_manager_ibfk_2` FOREIGN KEY (`dept_no`) REFERENCES `departments` (`dept_no`) ON DELETE CASCADE\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci"
+    },
+    "employees": {
+      "columns": [
+        {
+          "name": "emp_no",
+          "type": "int",
+          "nullable": false,
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "birth_date",
+          "type": "date",
+          "nullable": false,
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "first_name",
+          "type": "varchar(14)",
+          "nullable": false,
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "last_name",
+          "type": "varchar(16)",
+          "nullable": false,
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "gender",
+          "type": "enum('M','F')",
+          "nullable": false,
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "hire_date",
+          "type": "date",
+          "nullable": false,
+          "default": null,
+          "extra": ""
+        }
+      ],
+      "primary_key": {
+        "constrained_columns": [
+          "emp_no"
+        ],
+        "name": null
+      },
+      "foreign_keys": [],
+      "indexes": [],
+      "table_properties": {
+        "engine": "InnoDB",
+        "collation": "utf8mb4_0900_ai_ci",
+        "auto_increment": null,
+        "create_options": "",
+        "comment": ""
+      },
+      "create_statement": "CREATE TABLE `employees` (\n  `emp_no` int NOT NULL,\n  `birth_date` date NOT NULL,\n  `first_name` varchar(14) NOT NULL,\n  `last_name` varchar(16) NOT NULL,\n  `gender` enum('M','F') NOT NULL,\n  `hire_date` date NOT NULL,\n  PRIMARY KEY (`emp_no`)\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci"
+    },
+    "salaries": {
+      "columns": [
+        {
+          "name": "emp_no",
+          "type": "int",
+          "nullable": false,
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "salary",
+          "type": "int",
+          "nullable": false,
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "from_date",
+          "type": "date",
+          "nullable": false,
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "to_date",
+          "type": "date",
+          "nullable": false,
+          "default": null,
+          "extra": ""
+        }
+      ],
+      "primary_key": {
+        "constrained_columns": [
+          "emp_no",
+          "from_date"
+        ],
+        "name": null
+      },
+      "foreign_keys": [
+        {
+          "name": "salaries_ibfk_1",
+          "constrained_columns": [
+            "emp_no"
+          ],
+          "referred_schema": null,
+          "referred_table": "employees",
+          "referred_columns": [
+            "emp_no"
+          ],
+          "options": {
+            "ondelete": "CASCADE"
+          }
+        }
+      ],
+      "indexes": [],
+      "table_properties": {
+        "engine": "InnoDB",
+        "collation": "utf8mb4_0900_ai_ci",
+        "auto_increment": null,
+        "create_options": "",
+        "comment": ""
+      },
+      "create_statement": "CREATE TABLE `salaries` (\n  `emp_no` int NOT NULL,\n  `salary` int NOT NULL,\n  `from_date` date NOT NULL,\n  `to_date` date NOT NULL,\n  PRIMARY KEY (`emp_no`,`from_date`),\n  CONSTRAINT `salaries_ibfk_1` FOREIGN KEY (`emp_no`) REFERENCES `employees` (`emp_no`) ON DELETE CASCADE\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci"
+    },
+    "titles": {
+      "columns": [
+        {
+          "name": "emp_no",
+          "type": "int",
+          "nullable": false,
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "title",
+          "type": "varchar(50)",
+          "nullable": false,
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "from_date",
+          "type": "date",
+          "nullable": false,
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "to_date",
+          "type": "date",
+          "nullable": true,
+          "default": null,
+          "extra": ""
+        }
+      ],
+      "primary_key": {
+        "constrained_columns": [
+          "emp_no",
+          "title",
+          "from_date"
+        ],
+        "name": null
+      },
+      "foreign_keys": [
+        {
+          "name": "titles_ibfk_1",
+          "constrained_columns": [
+            "emp_no"
+          ],
+          "referred_schema": null,
+          "referred_table": "employees",
+          "referred_columns": [
+            "emp_no"
+          ],
+          "options": {
+            "ondelete": "CASCADE"
+          }
+        }
+      ],
+      "indexes": [],
+      "table_properties": {
+        "engine": "InnoDB",
+        "collation": "utf8mb4_0900_ai_ci",
+        "auto_increment": null,
+        "create_options": "",
+        "comment": ""
+      },
+      "create_statement": "CREATE TABLE `titles` (\n  `emp_no` int NOT NULL,\n  `title` varchar(50) NOT NULL,\n  `from_date` date NOT NULL,\n  `to_date` date DEFAULT NULL,\n  PRIMARY KEY (`emp_no`,`title`,`from_date`),\n  CONSTRAINT `titles_ibfk_1` FOREIGN KEY (`emp_no`) REFERENCES `employees` (`emp_no`) ON DELETE CASCADE\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci"
+    }
+  }
+}
