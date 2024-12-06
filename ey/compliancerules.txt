@@ -1,0 +1,110 @@
+1. Income Tax Rules
+1.1. Income Tax Act, 1961
+
+    Section 4: Charge of Income Tax
+        Income tax is charged for each financial year on the total income of the previous year.
+
+    Section 139: Filing of Return of Income
+        Every person whose total income exceeds the maximum amount not chargeable to tax is required to file a return of income.
+
+    Section 80C: Deductions from Total Income
+        Deductions up to ₹1,50,000 for investments in specified savings instruments (e.g., PPF, ELSS, NSC).
+
+    Section 115BAA: Tax on Income of Companies
+        Domestic companies can opt for a reduced tax rate of 22% (plus applicable surcharge and cess) provided they do not claim certain deductions.
+
+    Section 143: Assessment Procedure
+        Details the procedure for income assessment by the assessing officer.
+
+1.2. Income Tax Rules, 1962
+
+    Rule 12: Return of Income
+        Prescribes the manner of filing the return of income for various categories of taxpayers.
+
+    Rule 37: Allowance for Depreciation
+        Specifies the rates at which depreciation can be claimed on various assets.
+
+2. Goods and Services Tax (GST) Rules
+2.1. Central Goods and Services Tax Act, 2017
+
+    Section 7: Scope of Supply
+        Defines what constitutes a supply of goods or services, which is taxable under GST.
+
+    Section 16: Eligibility and Conditions for Taking Input Tax Credit
+        Outlines the conditions under which input tax credit can be claimed.
+
+    Section 39: Furnishing of Returns
+        Details the requirements for filing GST returns, including GSTR-1 and GSTR-3B.
+
+2.2. Goods and Services Tax Rules, 2017
+
+    Rule 22: Procedure for Registration
+        Specifies the process for obtaining GST registration.
+
+    Rule 26: Manner of Determining the Value of Supply
+        Provides the guidelines for determining the value of supply for tax purposes.
+
+3. Tax Deducted at Source (TDS) Rules
+3.1. Income Tax Act, 1961
+
+    Section 192: TDS on Salaries
+        Employers are required to deduct TDS on salaries based on applicable income tax slabs.
+
+    Section 194J: TDS on Professional Fees
+        TDS at the rate of 10% is applicable on payments made for professional services.
+
+    Section 194I: TDS on Rent
+        TDS on rent payments is required at the rate of 10% if the rent exceeds ₹2,40,000 in a financial year.
+
+3.2. Income Tax Rules, 1962
+
+    Rule 31A: Statement of TDS
+        Specifies the format and timing for filing TDS returns.
+
+    Rule 37BA: Adjustment of TDS
+        Guidelines for adjusting TDS against tax payable by the taxpayer.
+
+4. Corporate Compliance Rules
+4.1. Companies Act, 2013
+
+    Section 134: Financial Statements
+        Specifies the requirement for companies to prepare financial statements and get them audited.
+
+    Section 139: Appointment of Auditors
+        Details the process for appointing statutory auditors for companies.
+
+4.2. Companies (Audit and Auditors) Rules, 2014
+
+    Rule 3: Eligibility Criteria for Auditors
+        Specifies the qualifications and disqualifications for appointment as auditors.
+
+    Rule 11: Auditor’s Report
+        Outlines the requirements for the content of an auditor's report.
+
+5. Miscellaneous Compliance Rules
+5.1. Labour Laws
+
+    Employees' Provident Funds and Miscellaneous Provisions Act, 1952
+        Requires employers to contribute 12% of employee wages to the EPF account.
+
+    Maternity Benefit Act, 1961
+        Prescribes the maternity leave and benefits for female employees.
+
+5.2. Foreign Exchange Management Act, 1999 (FEMA)
+
+    Section 3: Prohibition on Certain Transactions
+        Regulates foreign exchange transactions and prohibits certain transactions.
+
+    Regulation 5: Current Account Transactions
+        Outlines permissible current account transactions.
+
+6. Penalties and Prosecutions
+6.1. Income Tax Act, 1961
+
+    Section 271: Penalty for Failure to Furnish Return
+        Imposes penalties for non-compliance with the requirement to file returns.
+
+6.2. Goods and Services Tax Act
+
+    Section 122: Penalty for Certain Offences
+        Details penalties for offenses such as tax evasion or fraudulent activities.

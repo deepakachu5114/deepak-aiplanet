@@ -1,0 +1,190 @@
+Company Name: ABC Pvt. Ltd.
+Address: 123 Business Park, Industrial Area, Mumbai, Maharashtra, India
+Contact Person: John Doe, Finance Manager
+Contact Number: +91-9876543210
+Email: johndoe@abc.com
+Assessment Year: 2024-2025
+Submission Date: July 31, 2024
+1. Cover Letter
+
+To:
+The Audit Team,
+EY India,
+456 Consulting Lane,
+Mumbai, Maharashtra, India
+
+Subject: Submission of Documents for Tax Compliance Verification
+
+Dear EY Audit Team,
+
+We hereby submit the necessary documents for the tax compliance verification for the assessment year 2024-2025. Enclosed are the financial statements, tax returns, supporting documents, and other relevant information as requested.
+
+We appreciate your assistance and look forward to your insights regarding our compliance status.
+
+Sincerely,
+John Doe
+Finance Manager
+ABC Pvt. Ltd.
+2. Financial Statements
+2.1 Balance Sheet (As of March 31, 2024)
+Asset Category	Amount (₹)
+Current Assets	
+- Cash and Cash Equivalents	50,00,000
+- Accounts Receivable	30,00,000
+- Inventory	70,00,000
+- Short-term Investments	1,00,000
+Total Current Assets	1,50,00,000
+Fixed Assets	
+- Property, Plant, and Equipment	2,50,00,000
+- Accumulated Depreciation	(50,00,000)
+- Intangible Assets	10,00,000
+Total Fixed Assets	2,10,00,000
+Total Assets	4,50,00,000
+Liability Category	Amount (₹)
+Current Liabilities	
+- Accounts Payable	40,00,000
+- Short-term Loans	60,00,000
+- Accrued Liabilities	10,00,000
+Total Current Liabilities	1,10,00,000
+Long-term Liabilities	
+- Long-term Loans	1,00,00,000
+Total Liabilities	2,10,00,000
+Shareholders' Equity	
+- Share Capital	2,50,00,000
+- Retained Earnings	(10,00,000)
+Total Equity	2,40,00,000
+Total Liabilities and Equity	4,50,00,000
+2.2 Profit and Loss Account (For the Year Ended March 31, 2024)
+Description	Amount (₹)
+Total Revenue	
+- Sales Revenue	5,00,00,000
+- Other Income	10,00,000
+Total Income	5,10,00,000
+Less: Cost of Goods Sold	
+- Opening Inventory	50,00,000
+- Purchases	2,50,00,000
+- Closing Inventory	(70,00,000)
+Cost of Goods Sold	2,30,00,000
+Gross Profit	2,80,00,000
+Less: Operating Expenses	
+- Salaries and Wages	50,00,000
+- Rent Expense	20,00,000
+- Utilities	10,00,000
+- Depreciation Expense	10,00,000
+- Marketing and Advertising	5,00,000
+Total Operating Expenses	95,00,000
+Net Profit Before Tax	1,85,00,000
+2.3 Cash Flow Statement (For the Year Ended March 31, 2024)
+Cash Flow Activity	Amount (₹)
+Cash from Operating Activities	
+- Net Profit Before Tax	1,85,00,000
+- Adjustments for:	
+- Depreciation	10,00,000
+- Changes in Working Capital	(5,00,000)
+Net Cash from Operating Activities	1,90,00,000
+Cash from Investing Activities	
+- Purchase of Fixed Assets	(50,00,000)
+Net Cash from Investing Activities	(50,00,000)
+Cash from Financing Activities	
+- Proceeds from Borrowings	30,00,000
+- Repayment of Loans	(20,00,000)
+Net Cash from Financing Activities	10,00,000
+Net Increase in Cash	1,50,00,000
+3. Tax Returns
+3.1 Income Tax Return (ITR)
+
+    Filed on: July 31, 2024
+    Assessment Year: 2024-2025
+    Total Taxable Income: ₹2,10,00,000
+    Tax Computed:
+        Corporate Tax Rate: 25%
+        Tax Payable: ₹52,50,000
+
+3.2 Details of Deductions and Exemptions
+
+    Deductions under Section 80C:
+        PPF Contribution: ₹1,50,000
+        EPF Contribution: ₹50,000
+        Life Insurance Premiums: ₹25,000
+
+4. Supporting Documentation
+4.1 Sales Invoices
+
+    Total Sales: ₹5,00,00,000
+    Sample Invoices:
+        Invoice #001: Sale to XYZ Ltd. - ₹2,00,00,000
+        Invoice #002: Sale to ABC Corp. - ₹1,50,00,000
+        Invoice #003: Sale to MNO Pvt. Ltd. - ₹1,00,00,000
+        Invoice #004: Sale to PQR Ltd. - ₹50,00,000
+
+4.2 Purchase Invoices
+
+    Total Purchases: ₹3,00,00,000
+    Sample Invoices:
+        Invoice #1001: Purchase from Supplier A - ₹1,20,00,000
+        Invoice #1002: Purchase from Supplier B - ₹80,00,000
+        Invoice #1003: Purchase from Supplier C - ₹1,00,00,000
+
+4.3 Bank Statements
+
+    Summary of Bank Transactions:
+        Bank A (Current Account): Opening Balance: ₹10,00,000; Closing Balance: ₹25,00,000
+        Bank B (Savings Account): Opening Balance: ₹5,00,000; Closing Balance: ₹20,00,000
+
+4.4 Contracts and Agreements
+
+    Major Contracts:
+        Contract with XYZ Ltd. for supply of goods dated April 1, 2023
+        Lease Agreement for office space dated January 1, 2023
+
+5. TDS (Tax Deducted at Source) Compliance
+5.1 TDS Certificates
+
+    TDS on Professional Services (Section 194J):
+        Total TDS Deducted: ₹40,000
+        TDS on Rent Payments (Section 194I):
+        Total TDS Deducted: ₹10,000
+
+5.2 TDS Returns
+
+    Filed TDS Returns:
+        Q1: TDS on payments made - ₹25,000
+        Q2: TDS on payments made - ₹15,000
+        Q3: TDS on payments made - ₹10,000
+
+6. GST Compliance
+6.1 GST Returns Filed
+
+    GSTR-1: Total Sales Reported: ₹5,00,00,000
+    GSTR-3B:
+        GST Paid: ₹90,00,000 (at 18%)
+        Input Tax Credit Claimed: ₹45,00,000
+
+6.2 GST Payment Details
+
+    Challan for GST Payments:
+        GST Payment for June 2024: ₹15,00,000
+        GST Payment for July 2024: ₹20,00,000
+
+7. Additional Information
+7.1 Compliance Checklist
+
+    Document Retention Policy: Confirmed retention of all records for 7 years.
+    Internal Controls: Documented procedures for financial reporting and compliance.
+
+7.2 Notes and Clarifications
+
+    Clarification on Deferred Tax Assets: Deferred tax assets of ₹5,00,000 are primarily due to timing differences in revenue recognition.
+    Pending Litigations: Brief description of ongoing litigation affecting tax positions.
+
+8. Conclusion
+
+This submission includes all relevant documents necessary for the tax compliance verification process for ABC Pvt. Ltd. for the assessment year 2024-2025. We trust that this comprehensive package will facilitate your review process.
+
+Attachments:
+
+    Financial Statements
+    Tax Returns
+    Supporting Invoices
+    TDS Certificates
+    GST Returns
